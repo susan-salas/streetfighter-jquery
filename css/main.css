@@ -23,8 +23,13 @@ body {
 .main .ryu .ryu-cool {
     width: 659px;
     height: 494px;
-    display: none;
     background-repeat: no-repeat;
+}
+
+.main .ryu .ryu-ready,
+.main .ryu .ryu-throwing,
+.main .ryu .ryu-cool {
+    display: none;
 }
 
 .ryu-ready {
